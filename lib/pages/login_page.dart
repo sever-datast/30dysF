@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                           changeButton
                               ? Icon(Icons.done, color: Colors.white)
                               : Text(
-                                'Login',
+                                'Login ',
                                 style: TextStyle(
                                   fontSize: 18,
                                   color: Colors.white,
