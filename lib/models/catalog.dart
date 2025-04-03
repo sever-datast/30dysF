@@ -1,5 +1,19 @@
+class CatalogModel {
+  static final items = [
+    Item(
+      id: 1,
+      name: '14 pro Max',
+      desc: 'BEST phone',
+      price: 1200,
+      color: 'green',
+      image:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc',
+    ),
+  ];
+}
+
 class Item {
-  final String id;
+  final int id;
   final String name;
   final String desc;
   final num price;
@@ -14,16 +28,4 @@ class Item {
     required this.color,
     required this.image,
   });
-
-  final products = [
-    Item(
-      id: 'iphone',
-      name: '14 pro Max',
-      desc: 'BEST phone',
-      price: 1200,
-      color: 'green',
-      image:
-          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc',
-    ),
-  ];
 }
